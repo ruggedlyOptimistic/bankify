@@ -23,13 +23,13 @@ class Transaction
         
         // Getters & Setters
         std::string getType() const;
-        void setType(const std::string& value);
+        void setType(const std::string value);
 
         std::string getVendor() const;
-        void setVendor(const std::string& value);
+        void setVendor(const std::string value);
 
         std::string getCategory() const;
-        void setCategory(const std::string& value);
+        void setCategory(const std::string value);
 
         std::string getDate() const;
         std::string getDescription() const;

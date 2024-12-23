@@ -1,22 +1,28 @@
 #ifndef SIMPLE_DATE_H
 #define SIMPLE_DATE_H
 
+#include <string>
+#include <vector>
+#include <sstream>
+#include <iostream>
+
 class SimpleDate
 {
     private:
-        uint8_t monthNum;
+        int monthNum;
         std::string month;
-        uint8_t day;
-        uint16_t year;
+        int day;
+        int year;
         std::string fullDate;
 
     public:
         SimpleDate(const std::string& fullDate);        // expected as mm/dd/yyyy
         
-        uint8_t getMonthNum();
+        // std::vector<std::string> split(const std::string& datestring, char delimiter);
+        int getMonthNum();
         std::string getMonth() const;
-        uint8_t getDay();
-        uint8_t getYear();
+        int getDay();
+        int getYear();
 
         std::string getFullDate() const;
 };

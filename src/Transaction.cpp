@@ -13,16 +13,30 @@ Transaction::Transaction(const std::string& date, const std::string& description
     // subjective data
     type = DEFAULT_STATUS;
     vendor = DEFAULT_STATUS;
-    category = DEFAULT_STATUS
+    category = DEFAULT_STATUS;
 }
 
+std::string Transaction::getDate() const
+{
+    return date;
+}
+
+std::string Transaction::getDescription() const
+{
+    return description;
+}
+
+double Transaction::getAmount()
+{
+    return amount;
+}
 
 std::string Transaction::getType() const // NOTE: why do I need the 'const' keyword?
 {
     return type;
 }
 
-void Transaction::setTyoe(string value)
+void Transaction::setType(std::string value)
 {
     type = value;
 }
@@ -33,7 +47,7 @@ std::string Transaction::getVendor() const
     return vendor;
 }
 
-void Transaction::setVendor(string value)
+void Transaction::setVendor(std::string value)
 {
     vendor = value;
 }
@@ -43,7 +57,7 @@ std::string Transaction::getCategory() const
     return category;
 }    
 
-void Transaction::setCategory(string value)
+void Transaction::setCategory(std::string value)
 {
     category = value;
 }

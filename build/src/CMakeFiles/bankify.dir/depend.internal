@@ -3,7 +3,10 @@
 
 src/CMakeFiles/bankify.dir/SimpleDate.cpp.o
  /home/jason/projects/bankify/src/SimpleDate.cpp
+ /home/jason/projects/bankify/src/SimpleDate.h
 src/CMakeFiles/bankify.dir/Transaction.cpp.o
  /home/jason/projects/bankify/src/Transaction.cpp
+ /home/jason/projects/bankify/src/Transaction.h
 src/CMakeFiles/bankify.dir/main.cpp.o
+ /home/jason/projects/bankify/src/Transaction.h
  /home/jason/projects/bankify/src/main.cpp

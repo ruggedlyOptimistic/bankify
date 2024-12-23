@@ -6,23 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/jason/projects/bankify/src/SimpleDate.cpp
-SimpleDate.h
-/home/jason/projects/bankify/src/SimpleDate.h
-iostream
--
-vector
--
-string
--
-sstream
--
-
 /home/jason/projects/bankify/src/Transaction.cpp
 Transaction.h
 /home/jason/projects/bankify/src/Transaction.h
 
+/home/jason/projects/bankify/src/Transaction.h
+string
+-
+
 /home/jason/projects/bankify/src/main.cpp
+Transaction.h
+/home/jason/projects/bankify/src/Transaction.h
 iostream
 -
 
