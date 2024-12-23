@@ -92,12 +92,12 @@ src/clean: src/CMakeFiles/bankify.dir/clean
 src/CMakeFiles/bankify.dir/all:
 	$(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/depend
 	$(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jason/projects/bankify/build/CMakeFiles --progress-num=1,2 "Built target bankify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jason/projects/bankify/build/CMakeFiles --progress-num=1,2,3,4 "Built target bankify"
 .PHONY : src/CMakeFiles/bankify.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/bankify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/projects/bankify/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/projects/bankify/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/bankify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jason/projects/bankify/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/bankify.dir/rule

@@ -125,6 +125,60 @@ bankify/fast:
 	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/build
 .PHONY : bankify/fast
 
+SimpleDate.o: SimpleDate.cpp.o
+
+.PHONY : SimpleDate.o
+
+# target to build an object file
+SimpleDate.cpp.o:
+	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/SimpleDate.cpp.o
+.PHONY : SimpleDate.cpp.o
+
+SimpleDate.i: SimpleDate.cpp.i
+
+.PHONY : SimpleDate.i
+
+# target to preprocess a source file
+SimpleDate.cpp.i:
+	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/SimpleDate.cpp.i
+.PHONY : SimpleDate.cpp.i
+
+SimpleDate.s: SimpleDate.cpp.s
+
+.PHONY : SimpleDate.s
+
+# target to generate assembly for a file
+SimpleDate.cpp.s:
+	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/SimpleDate.cpp.s
+.PHONY : SimpleDate.cpp.s
+
+Transaction.o: Transaction.cpp.o
+
+.PHONY : Transaction.o
+
+# target to build an object file
+Transaction.cpp.o:
+	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/Transaction.cpp.o
+.PHONY : Transaction.cpp.o
+
+Transaction.i: Transaction.cpp.i
+
+.PHONY : Transaction.i
+
+# target to preprocess a source file
+Transaction.cpp.i:
+	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/Transaction.cpp.i
+.PHONY : Transaction.cpp.i
+
+Transaction.s: Transaction.cpp.s
+
+.PHONY : Transaction.s
+
+# target to generate assembly for a file
+Transaction.cpp.s:
+	cd /home/jason/projects/bankify/build && $(MAKE) -f src/CMakeFiles/bankify.dir/build.make src/CMakeFiles/bankify.dir/Transaction.cpp.s
+.PHONY : Transaction.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -161,6 +215,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... bankify"
+	@echo "... SimpleDate.o"
+	@echo "... SimpleDate.i"
+	@echo "... SimpleDate.s"
+	@echo "... Transaction.o"
+	@echo "... Transaction.i"
+	@echo "... Transaction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

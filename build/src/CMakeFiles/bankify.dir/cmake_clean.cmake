@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/bankify.dir/SimpleDate.cpp.o"
+  "CMakeFiles/bankify.dir/Transaction.cpp.o"
   "CMakeFiles/bankify.dir/main.cpp.o"
   "bankify"
   "bankify.pdb"

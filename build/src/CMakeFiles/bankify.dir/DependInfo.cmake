@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jason/projects/bankify/src/SimpleDate.cpp" "/home/jason/projects/bankify/build/src/CMakeFiles/bankify.dir/SimpleDate.cpp.o"
+  "/home/jason/projects/bankify/src/Transaction.cpp" "/home/jason/projects/bankify/build/src/CMakeFiles/bankify.dir/Transaction.cpp.o"
   "/home/jason/projects/bankify/src/main.cpp" "/home/jason/projects/bankify/build/src/CMakeFiles/bankify.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src"
+  "../src/include"
   )
 
 # Targets to which this target links.

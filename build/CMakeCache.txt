@@ -225,10 +225,10 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-bankify_BINARY_DIR:STATIC=/home/jason/projects/bankify/build
+bankify_BINARY_DIR:STATIC=/home/jason/projects/bankify/build/src
 
 //Value Computed by CMake
-bankify_SOURCE_DIR:STATIC=/home/jason/projects/bankify
+bankify_SOURCE_DIR:STATIC=/home/jason/projects/bankify/src
 
 
 ########################
