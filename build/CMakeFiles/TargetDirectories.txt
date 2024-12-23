@@ -1,0 +1,5 @@
+/home/jason/projects/bankify/build/CMakeFiles/rebuild_cache.dir
+/home/jason/projects/bankify/build/CMakeFiles/edit_cache.dir
+/home/jason/projects/bankify/build/src/CMakeFiles/rebuild_cache.dir
+/home/jason/projects/bankify/build/src/CMakeFiles/edit_cache.dir
+/home/jason/projects/bankify/build/src/CMakeFiles/bankify.dir
