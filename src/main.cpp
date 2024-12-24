@@ -7,6 +7,7 @@ int main()
     Transaction t = Transaction("12/25/2024", "test transaction Amazon *MKTPL", 45.0f);
 
     cout << "Transaction amount: $" << t.Transaction::getAmount() << endl;
+    cout << "Transaction date: " << t.Transaction::getDate() << endl;
 
     std::cout << "Test Complete" << std::endl;
 

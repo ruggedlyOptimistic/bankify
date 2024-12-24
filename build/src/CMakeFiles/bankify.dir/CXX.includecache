@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/jason/projects/bankify/src/Transaction.cpp
-Transaction.h
-/home/jason/projects/bankify/src/Transaction.h
-
 /home/jason/projects/bankify/src/Transaction.h
 string
 -
